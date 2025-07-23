@@ -7,7 +7,7 @@ One sentence description
 ## Building
 
 Use the make command to build the program.
-* make
+``` make ```
 
 ## Running
 
