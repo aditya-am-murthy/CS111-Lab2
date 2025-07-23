@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 
         for (int i = 2; i < argc - 1; i++) {
             pipe(curr_pipe);
-            int pid = fork();
+            pid = fork();
             if (pid < 0) {
                 exit(errno);
             }
@@ -94,7 +94,7 @@ int main(int argc, char *argv[])
             }
         }
 
-        int pid = fork();
+        pid = fork();
         if (pid < 0) {
             exit(errno);
         }
