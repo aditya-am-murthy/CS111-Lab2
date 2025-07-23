@@ -6,7 +6,8 @@ One sentence description
 
 ## Building
 
-Explain briefly how to build your program
+Use the make command to build the program.
+* make
 
 ## Running
 
